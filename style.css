@@ -1,0 +1,51 @@
+body {
+    background-image: url(img/guillaume-techer-6_7FDn6KaqQ-unsplash.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 500px;
+}
+
+#progress 
+.times,
+.card-footer,
+.volume-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  
+}
+
+.volume-container i {
+    margin-right: 5px;
+}
+
+li.playing   {
+    background-color: white;
+    color: green;
+  
+  font-size: larger;
+
+}
+
+  input[type=range]::-webkit-slider-thumb {
+
+    border: 2px solid green;
+    height: 20px;
+    width: 20px;
+    border-radius: 23px;
+    background: green;
+    cursor: pointer;
+
+    margin-top: -7px;
+  }
+
+
+
+
+ 
